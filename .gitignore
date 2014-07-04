@@ -21,4 +21,7 @@ tmp
 *.so
 *.o
 *.a
+*~
+*.swp
+*.swo
 mkmf.log
