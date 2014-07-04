@@ -1,5 +1,6 @@
-require "bin_checker/version"
+require 'bin_checker/version'
+require 'models/bin_number'
 
 module BinChecker
-  # Your code goes here...
+  require 'bin_checker/railtie' if defined?(Rails)
 end
