@@ -2,6 +2,13 @@
 
 Bin checker identifies Turkish banks with bin numbers, It bases on [berkayunal](https://github.com/berkayunal)'s bin [list](https://gist.github.com/berkayunal/1595676).
 
+## Requirements
+
+Before generating your application, you will need:
+
+* Ruby ~> 2.0
+* Rails ~> 3.0 or Rails ~> 4.0
+
 ## Installation
 
 Add this line to your application's Gemfile:
