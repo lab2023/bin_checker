@@ -32,24 +32,25 @@ After installation you should run
 for seeding datas.
 
 ## Usage
-    When you want to get bank infos just run like
-    
-        card = BinNumber.get_bank('454894')
-        
-        card.bank_name
-        => "T.C. ZİRAAT BANKASI A.Ş."
-        
-        card.card_type
-        => "VISA"
-        
-        card.sub_type
-        => "CLASSIC"
-        
-        card.virtual
-        => false
-        
-        card.prepaid
-        => false
+
+When you want to get bank infos just run like
+
+  card = BinNumber.find_by bin_number: '454894'
+
+  card.bank_name
+  => "T.C. ZİRAAT BANKASI A.Ş."
+
+  card.card_type
+  => "VISA"
+
+  card.sub_type
+  => "CLASSIC"
+
+  card.virtual
+  => false
+
+  card.prepaid
+  => false
 
 ## Bugs and  Feedback
 
