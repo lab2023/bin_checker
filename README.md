@@ -1,6 +1,7 @@
 # BinChecker
 
-Bin checker identifies Turkish banks with bin numbers, It bases on [berkayunal](https://github.com/berkayunal)'s bin [list](https://gist.github.com/berkayunal/1595676).
+Bin checker identifies Turkish banks with bin numbers, It bases on [berkayunal](https://github.com/berkayunal)'s 
+bin [list](https://gist.github.com/berkayunal/1595676).
 
 ## Requirements
 
@@ -35,22 +36,22 @@ for seeding datas.
 
 When you want to get bank infos just run like
 
-  card = BinNumber.find_by bin_number: '454894'
+    card = BinNumber.find_by bin_number: '454894'
 
-  card.bank_name
-  => "T.C. ZİRAAT BANKASI A.Ş."
+    card.bank_name
+    => "T.C. ZİRAAT BANKASI A.Ş."
 
-  card.card_type
-  => "VISA"
+    card.card_type
+    => "VISA"
 
-  card.sub_type
-  => "CLASSIC"
+    card.sub_type
+    => "CLASSIC"
 
-  card.virtual
-  => false
+    card.virtual
+    => false
 
-  card.prepaid
-  => false
+    card.prepaid
+    => false
 
 ## Bugs and  Feedback
 
