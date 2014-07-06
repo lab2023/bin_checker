@@ -24,4 +24,5 @@ tmp
 *~
 *.swp
 *.swo
-mkmf.log
+*.log
+
